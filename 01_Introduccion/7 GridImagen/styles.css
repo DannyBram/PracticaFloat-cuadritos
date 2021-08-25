@@ -1,0 +1,22 @@
+.container {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    
+  }
+
+.izquierda{
+    display: grid;
+    border: red 2px solid;
+    grid-template-rows: 80px;
+    grid-template-columns: 300px 300px;
+}
+
+.izquiedaabajo {
+    display: inline-grid;
+    justify-self: stretch;
+
+    
+
+}
