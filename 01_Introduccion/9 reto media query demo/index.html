@@ -3,49 +3,8 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .bg {
-            padding: 20px;
-            color: white;
-        }
-/* 1 imagenes por columna */
-@media only screen and (max-width: 793px) {
-            .bg {
-                background:gray;
-            }
-            .llama{
-                width: 100%;
-            }
-        }
+    <link rel="stylesheet" href="styles.css">
 
-        /* 2 imagenes por columna */
-        @media only screen and (min-width: 794px) {
-            .bg {
-                background: blue;
-            }
-            .llama{
-                width: 100%;
-            }
-            .container{
-                display: grid;
-                grid-template-columns: 50% 50%;
-            }
-        }
-        
-        /* 3 imagenes por columna */
-        @media only screen and (min-width: 1020px) {
-            .bg {
-                background: green;
-            }
-            .llama{
-                width: 100%;
-            }
-            .container{
-                display: grid;
-                grid-template-columns: 25% 25% 25% 25%;
-            }
-        }
-    </style>
 </head>
 <body class="bg">
 
@@ -55,15 +14,15 @@
     <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex facilis aliquam quod ratione, doloribus cumque similique inventore architecto consequuntur aspernatur asperiores quisquam nobis porro aliquid possimus provident nesciunt eligendi perspiciatis? </p>
     <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex facilis aliquam quod ratione, doloribus cumque similique inventore architecto consequuntur aspernatur asperiores quisquam nobis porro aliquid possimus provident nesciunt eligendi perspiciatis? </p>
 <div class="container">
-    <figure>
-        <img class="llama" src="a.jpg">
+    <figure class="llama">
+        <img src="a.jpg">
         <figcaption>Fig.1 - aire</figcaption>
     </figure>
-    <figure>
-        <img class="llama" src="a.jpg">
+    <figure class="llama">
+        <img src="a.jpg">
         <figcaption>Fig.2 - tierra</figcaption>
     </figure>
-    <figure>
+    <figure class="llama">
         <img class="llama" src="a.jpg">
         <figcaption>Fig.1 - agua</figcaption>
     </figure>
@@ -78,6 +37,14 @@
     <figure>
         <img class="llama" src="a.jpg">
         <figcaption>Fig.1 - plasma</figcaption>
+    </figure>
+    <figure>
+        <img class="llama" src="a.jpg">
+        <figcaption>Fig.1 - madera</figcaption>
+    </figure>
+    <figure>
+        <img class="llama" src="a.jpg">
+        <figcaption>Fig.1 - veneno</figcaption>
     </figure>
 </div>
 </body>

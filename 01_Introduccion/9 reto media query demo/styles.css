@@ -1,0 +1,47 @@
+.bg {
+    padding: 20px;
+    color: white;
+}
+/* 1 imagenes por columna */
+@media only screen and (max-width: 793px) {
+    .bg {
+        background:gray;
+    }
+    .llama{
+        width: 100%;
+        border: firebrick solid 10px;
+        border-radius: 15px;
+    }
+}
+
+/* 2 imagenes por columna */
+@media only screen and (min-width: 794px) {
+    .bg {
+        background: blue;
+    }
+    .llama{
+        width: 100%;
+        border: firebrick solid 10px;
+        border-radius: 15px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}
+
+/* 3 imagenes por columna */
+@media only screen and (min-width: 1020px) {
+    .bg {
+        background: green;
+    }
+    .llama{
+        width: 100%;
+        border: firebrick solid 10px;
+        border-radius: 15px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}
